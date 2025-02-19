@@ -34,6 +34,7 @@ This project is a monorepo containing a frontend application built with React an
 - **Prepare Infrastructure:** Run `make prepare-infra` to create the AWS infrastructure using Terraform.
 - **Push Backend:** Run `make push-back` to build and push the Django image to ECR and deploy it on Fargate.
 - **Push Frontend:** Run `make push-front` to build the frontend application and sync it to the S3 bucket.
+- Because Terraform forces you to set DB credentials explicitly, for secuity reasons I left the db.tf file out of this repo. If you would like to take a look at it just ping me.
 
 ## Infrastructure Overview
 
