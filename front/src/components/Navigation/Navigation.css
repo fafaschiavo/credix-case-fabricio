@@ -1,0 +1,53 @@
+.credix-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: black;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.credix-nav-inner {
+  max-width: 1170px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.credix-nav-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-weight: 900;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+
+.credix-nav-logo > a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.credix-nav-links-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.credix-nav-link {
+  padding: 20px;
+}
+
+.credix-nav-link > a {
+  color: white;
+  text-decoration: none;
+}
+
+.credix-nav-link > a:hover {
+  color: orange;
+}

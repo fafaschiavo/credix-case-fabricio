@@ -1,0 +1,43 @@
+# Global
+.env
+.DS_Store
+Thumbs.db
+
+# Editor / IDE settings
+.vscode/
+.idea/
+
+# Python
+*.py[cod]
+**/__pycache__/
+**/*.pyo
+*.egg-info/
+dist/
+build/
+
+# Django-specific (in the back folder)
+back/**/__pycache__/
+back/**/*.py[cod]
+back/*.log                      # Log files
+back/db.sqlite3                 # SQLite DB (if used)
+back/staticfiles/               # Collected static files (if using collectstatic)
+back/media/                     # User-uploaded media files
+
+# Virtual Environments (in back folder)
+back/venv/
+back/env/
+back/.venv/
+
+# Node, Vite & React (in the front folder)
+front/node_modules/
+front/dist/                     # Build output directory from Vite
+front/build/                    # In case you also use a build folder
+front/.vite/                    # Vite cache
+front/.cache/
+
+# Log files in front folder
+front/*.log
+
+# Terraform (in the terraform folder)
+terraform/.terraform/
+terraform/.terraform.lock.hcl

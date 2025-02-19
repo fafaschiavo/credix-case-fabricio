@@ -1,0 +1,10 @@
+version: '3.9'
+
+services:
+  frontend:
+    build: ./front
+    container_name: credix-case-frontend-build
+    volumes:
+      - ./front:/app
+      - /app/node_modules # Prevent node_modules sync issues
+    command: ['npm', 'run', 'build']
