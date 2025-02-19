@@ -102,7 +102,7 @@ const Checkout: React.FC = () => {
    * Handles form submission, validating required fields before proceeding.
    */
   const handleSubmit = (): void => {
-    let newErrors: FormErrors = {};
+    const newErrors: FormErrors = {};
 
     // Validate each input field and set error messages accordingly
     if (!validateCNPJ(formData.cnpj)) newErrors.cnpj = "Invalid CNPJ";
@@ -228,7 +228,7 @@ const Checkout: React.FC = () => {
               {terms.length > 0 && <Button onClick={handleEdit} text="EDIT" variant="outlined"/>}
             </div>
           </Card>
-          {terms.map((term: any) => (
+          {terms.map((term: number) => (
             <Card
               title={'Buy now, Pay later'}
               subtitle={`${term} days term`}

@@ -8,6 +8,9 @@ This project is a monorepo containing a frontend application built with React an
 - **Start the Project:**
   - If you have `make` installed, run: `make start`
   - Otherwise, run: `docker compose up --build`
+- **Access it:**
+  - The application will be available at `localhost:8001`
+  - The API will be available at `localhost:8000`
 
 ## Main Dependencies
 
@@ -15,7 +18,7 @@ This project is a monorepo containing a frontend application built with React an
 
 - [React](https://reactjs.org/)
 - [React Compiler](https://reactjs.org/docs/react-api.html)  
-  *(This refers to the modern build tooling that optimizes and compiles React code, ensuring deprecated patterns such as `useMemo` or `useCallback` are managed properly.)*
+  _(This refers to the modern build tooling that optimizes and compiles React code, ensuring deprecated patterns such as `useMemo` or `useCallback` are managed properly.)_
 - [Vite](https://vitejs.dev/)
 - [React Router](https://reactrouter.com/)
 - [Axios](https://axios-http.com/)
