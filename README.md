@@ -48,7 +48,7 @@ This project is a monorepo containing a frontend application built with React an
 - **RDS - PostgreSQL:** Managed PostgreSQL database.  
   ([AWS RDS for PostgreSQL](https://aws.amazon.com/rds/postgresql/))
 
-## Todo
+## To-do
 
 - **Storybook:** For developing and documenting UI components.  
   ([Storybook](https://storybook.js.org/))
